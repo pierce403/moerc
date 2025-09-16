@@ -1,0 +1,20 @@
+= Chamber Construction
+
+== Overview
+
+This chapter covers the detailed construction of the electrolysis chamber, including fabrication techniques, assembly procedures, and quality control measures.
+
+== Coming Soon
+
+Detailed construction instructions will be added in future revisions of this guide.
+
+== Placeholder Content
+
+* Detailed fabrication drawings
+* Step-by-step assembly instructions
+* Quality control checkpoints
+* Testing procedures
+
+== Next Steps
+
+Proceed to xref:electrical-system.adoc[Electrical System] when chamber construction is complete.

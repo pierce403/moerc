@@ -1,0 +1,5 @@
+name: moerc
+title: MOERC Build Guide
+version: ~
+nav:
+  - modules/ROOT/nav.adoc
