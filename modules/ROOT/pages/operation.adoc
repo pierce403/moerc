@@ -1,0 +1,13 @@
+= Operation Manual
+
+== Overview
+
+This chapter covers normal operation procedures, process parameters, and operational best practices.
+
+== Coming Soon
+
+Detailed operation instructions will be added in future revisions of this guide.
+
+== Next Steps
+
+Proceed to xref:troubleshooting.adoc[Troubleshooting] for problem resolution guidance.

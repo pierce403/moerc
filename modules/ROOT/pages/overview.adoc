@@ -1,0 +1,65 @@
+= System Overview
+
+== Introduction
+
+The Metal-Oxide Electrolysis Refinement Chamber (MOERC) is a precision electrolytic processing system designed for controlled metal-oxide reduction and refinement processes. This chapter provides a comprehensive overview of the system architecture, operating principles, and key components.
+
+== System Architecture
+
+The MOERC consists of several integrated subsystems:
+
+=== Primary Components
+
+* **Electrolysis Chamber**: The main reaction vessel where electrochemical processes occur
+* **Electrode Assembly**: Precisely positioned anodes and cathodes for optimal current distribution
+* **Power Supply System**: High-current, regulated DC power delivery
+* **Control System**: Automated monitoring and process control
+* **Safety Systems**: Multiple layers of protection and emergency shutdown capabilities
+* **Cooling System**: Thermal management for stable operation
+
+=== Operating Principles
+
+The MOERC operates on the principle of controlled electrolysis, where electrical energy drives chemical reactions to reduce metal oxides to their pure metallic form. Key process parameters include:
+
+* Current density control
+* Temperature regulation
+* Electrolyte composition management
+* Gas management and ventilation
+
+== Performance Specifications
+
+[cols="1,2"]
+|===
+|Parameter |Specification
+
+|Operating Temperature
+|200-800°C (adjustable)
+
+|Maximum Current
+|500A DC
+
+|Voltage Range
+|5-50V DC
+
+|Chamber Volume
+|2.5 liters
+
+|Process Efficiency
+|>95% theoretical
+
+|Control Accuracy
+|±1°C, ±0.1A
+|===
+
+== Applications
+
+The MOERC is suitable for:
+
+* Educational demonstrations of electrochemical principles
+* Small-scale metal refining research
+* Process development and optimization
+* Materials science experiments
+
+== Next Steps
+
+Proceed to xref:materials.adoc[Materials & Components] to begin planning your build.

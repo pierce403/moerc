@@ -1,0 +1,33 @@
+= MOERC Build Guide
+:doctype: book
+:revnumber: 0.1.0
+:revdate: {docdate}
+:sectnums:
+:toc: left
+
+== Preface
+
+Welcome to the Metal-Oxide Electrolysis Refinement Chamber (MOERC) Build Guide.
+
+This comprehensive guide provides step-by-step instructions for constructing your own Metal-Oxide Electrolysis Refinement Chamber. The MOERC is designed for educational and research purposes, demonstrating principles of electrochemistry, materials science, and precision engineering.
+
+=== About This Guide
+
+This guide is organized as a complete build manual, taking you from initial planning through final testing and operation. Each section builds upon the previous ones, so it's recommended to read through the entire guide before beginning construction.
+
+=== Safety Notice
+
+IMPORTANT: This project involves high voltages, chemical processes, and precision equipment. Please read and understand all safety guidelines before beginning any work. Always use appropriate personal protective equipment and follow local safety regulations.
+
+=== Prerequisites
+
+Before starting this project, you should have:
+
+* Basic understanding of electrical circuits and safety
+* Familiarity with metalworking and fabrication techniques
+* Access to appropriate tools and workspace
+* Understanding of chemical safety procedures
+
+=== License
+
+This work is licensed under CC0 1.0 Universal. You are free to use, modify, and distribute this content without restriction.

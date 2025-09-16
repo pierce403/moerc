@@ -1,0 +1,90 @@
+= Materials & Components
+
+== Required Materials
+
+This section lists all materials and components needed to construct the MOERC. Items are organized by subsystem for easier procurement and organization.
+
+=== Chamber Construction
+
+==== Structural Components
+* Stainless steel chamber body (316L grade recommended)
+* High-temperature gaskets and seals
+* Insulation materials (ceramic fiber blanket)
+* Viewing ports (borosilicate glass)
+
+==== Fasteners and Hardware
+* High-temperature bolts and nuts (A286 stainless steel)
+* Washers and spacers
+* Threaded rods and mounting brackets
+
+=== Electrical System
+
+==== Power Supply
+* DC power supply (0-50V, 0-500A) with current regulation
+* Power cables (high-current, insulated)
+* Safety disconnect switches
+* Circuit breakers and fuses
+
+==== Electrodes
+* Graphite anodes (high-purity grade)
+* Copper cathodes (99.9% pure)
+* Electrode holders and insulators
+* Connection hardware
+
+=== Control System
+
+==== Sensors
+* Type K thermocouples (high-temperature rated)
+* Current shunts for amperage monitoring
+* Voltage monitoring circuits
+* Pressure sensors (if applicable)
+
+==== Control Electronics
+* Programmable logic controller (PLC) or microcontroller
+* Solid-state relays
+* Display panels
+* Emergency stop buttons
+
+=== Safety Equipment
+
+==== Personal Protective Equipment
+* Safety glasses with side shields
+* Heat-resistant gloves
+* Chemical-resistant aprons
+* Respiratory protection (if handling chemicals)
+
+==== Ventilation
+* Exhaust fans
+* Ductwork and fittings
+* Gas scrubbing system (if required)
+
+== Tools Required
+
+=== Metalworking Tools
+* TIG welding equipment
+* Angle grinder
+* Drill press
+* Precision measuring tools
+
+=== Electrical Tools
+* Multimeter
+* Wire strippers and crimpers
+* Soldering equipment
+* Electrical testing equipment
+
+== Procurement Guidelines
+
+=== Sourcing Recommendations
+* Purchase electrical components from certified suppliers
+* Verify material certifications for high-temperature components
+* Consider lead times for specialized items
+* Maintain documentation for all components
+
+=== Cost Estimation
+* Budget approximately $5,000-$8,000 for complete system
+* Costs may vary based on specifications and local suppliers
+* Consider used equipment for non-critical components
+
+== Next Steps
+
+With materials identified, proceed to xref:safety.adoc[Safety Guidelines] before beginning construction.

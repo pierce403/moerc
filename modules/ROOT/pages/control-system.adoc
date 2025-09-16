@@ -1,0 +1,13 @@
+= Control System
+
+== Overview
+
+This chapter covers the control system design, programming, and configuration for automated MOERC operation.
+
+== Coming Soon
+
+Detailed control system instructions will be added in future revisions of this guide.
+
+== Next Steps
+
+Proceed to xref:testing.adoc[Testing & Calibration] when control system is complete.
