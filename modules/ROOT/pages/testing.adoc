@@ -1,13 +1,24 @@
 = Testing & Calibration
 
-== Overview
+== Dry runs (Section 4.1)
 
-This chapter covers system testing, calibration procedures, and commissioning protocols.
+. Leak-check the assembled system with argon, targeting <50 sccm leakage at 50 mbar over ambient.
+. Heat-soak the hot zone to 1000 °C using an empty liner. Verify element balance, pyrometer agreement, and thermal uniformity before pushing to full process temperature.
+. Pump down the refining pot, engage the cold-trap with water/ice, and confirm condensation control and vacuum stability.
+. Exercise interlocks, emergency stops, and data logging while the system is at temperature to ensure safe recovery paths.
 
-== Coming Soon
+== Feed characterization (Section 4.2)
 
-Detailed testing procedures will be added in future revisions of this guide.
+. Sieve feedstock to ≤250 µm and bake at 150–200 °C to remove moisture and surface salts.
+. Perform a **LIBS** scan (190–900 nm) across representative samples to estimate oxide fractions (Fe-oxides, SiO₂, Al₂O₃, CaO, TiO₂, alkalis). Save the spectra with the batch record.
+. Compare measured composition to recipe limits. Adjust staging times or potentials if impurities run high.
 
-== Next Steps
+== Instrument calibration
 
-Proceed to xref:operation.adoc[Operation Manual] when testing is complete.
+* Validate pyrometers against a calibrated reference or high-temperature blackbody during the dry run.
+* Zero and span vacuum gauges (Pirani and capacitance manometer) using known pressure references.
+* Run the RGA under clean vacuum to establish baseline spectra before processing.
+
+== Readiness gate
+
+Proceed to xref:operation.adoc[Operation Manual] only after all dry-run criteria are met, feed characterization data is logged, and calibration records are stored.

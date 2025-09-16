@@ -1,13 +1,25 @@
 = Maintenance
 
-== Overview
+== Routine schedule (Section 7)
 
-This chapter covers preventive maintenance schedules, procedures, and spare parts management.
+* Inspect liners and electrodes after every ~10 hours at temperature. Replace worn anode faces and document cathode recession.
+* Bake the argon dryer and replace filters quarterly or when differential pressure rises beyond spec.
+* Clean cold traps after each run; capture and store condensed SiO for potential reclaim or proper disposal.
+* Calibrate pyrometers quarterly and verify LIBS/OES wavelength alignment during each daily warm-up cycle.
 
-== Coming Soon
+== Post-run service
 
-Detailed maintenance procedures will be added in future revisions of this guide.
+. Allow the system to cool below 200 °C before opening.
+. Remove slag and residual metal from the phase-separation pockets. Check for erosion or cracks and replace inserts if necessary.
+. Inspect vacuum seals, pump oil, and scroll tips. Top off or service pumps according to manufacturer recommendations.
+. Empty and regenerate desiccant beds in the argon dryer if moisture breakthrough is detected.
 
-== Next Steps
+== Spares & consumables
 
-Proceed to xref:appendix.adoc[Appendix] for additional reference materials.
+* Maintain at least one spare ZrO₂ liner and an Al₂O₃ backup set.
+* Stock replacement electrodes or coatings (IrO₂) to avoid downtime.
+* Keep desiccant cartridges, filters, and cold-trap cups in rotation so cleaning cycles do not halt production.
+
+== Record keeping
+
+Log maintenance actions alongside batch data. Tracking liner hours, electrode wear, and pump service intervals is essential for correlating yield changes with hardware condition.

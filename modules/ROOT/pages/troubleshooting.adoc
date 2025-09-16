@@ -1,13 +1,57 @@
 = Troubleshooting
 
-== Overview
+This chapter ties common symptoms to the v0.1 operating procedures. Use it alongside xref:operation.adoc[Operation Manual], xref:control-system.adoc[Control System], and xref:maintenance.adoc[Maintenance].
 
-This chapter covers common problems, diagnostic procedures, and corrective actions.
+== MOE stage issues
 
-== Coming Soon
+|===
+|Symptom|Likely cause|Corrective action (reference)
 
-Detailed troubleshooting guides will be added in future revisions of this guide.
+|Fe sump fails to accumulate
+|Cathodic overpotential too high or insufficient settling time
+|Return to the Fe window parameters (low current density ~0.2–0.4 A cm⁻²) and hold until OES Fe lines stabilize. Allow extra dwell before tapping.
 
-== Next Steps
+|Silicon alloying with iron
+|Fe sump temperature too high or Si stage ramp too aggressive
+|Lower sump temperature, reduce potential step to 10 %, and pause feeding until LIBS/OES indicates separation (Section 4.3).
 
-Proceed to xref:maintenance.adoc[Maintenance] for ongoing care procedures.
+|Excessive bubbling or spatter
+|Rapid feed rate or trapped gas pathways
+|Reduce feed rate, verify gas ports are clear, and ensure the argon blanket is within the 50–150 mbar range.
+|===
+
+== Vacuum refining problems
+
+|===
+|Symptom|Likely cause|Corrective action
+
+|RGA shows rising phosphorous despite hold
+|Insufficient temperature or pressure not reaching ≤10 Pa
+|Increase refining temperature toward 1800 °C and verify vacuum integrity using the dry-run leak criteria.
+
+|RGA spike at m/z ~44 (SiO)
+|Over-evaporation or cold-trap warming
+|Tighten cold-trap cooling, lower refining temperature slightly, and inspect trap fill level between runs (Section 4.4).
+|===
+
+== Casting defects
+
+|===
+|Symptom|Likely cause|Corrective action
+
+|Impurity bands through ingot
+|Cooling rate too fast or directional cooling disrupted
+|Reset casting ramp to 1–5 K min⁻¹ from bottom to top. Confirm mold coating is intact (Section 4.5).
+
+|Surface oxidation on poured ingot
+|Transfer exposure to air
+|Use a covered transfer crucible and minimize transit time from refining pot to mold.
+|===
+
+== Sensor anomalies
+
+* Pyrometers drifting: Recalibrate against reference per the testing chapter and check purge gas cleanliness.
+* LIBS/OES noise: Inspect optical windows for condensate buildup and realign fibers after cleaning.
+* Vacuum gauge disagreement: Re-zero Pirani and capacitance manometer, confirm gauge placement is per the utilities chapter.
+
+Document troubleshooting steps alongside batch records so recurring patterns can be addressed during scheduled maintenance.

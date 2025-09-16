@@ -1,90 +1,56 @@
 = Materials & Components
 
-== Required Materials
+== Bill of materials (indicative, USD)
 
-This section lists all materials and components needed to construct the MOERC. Items are organized by subsystem for easier procurement and organization.
+_Prices match the v0.1 manual and assume new commercial hardware unless noted. Substitute equivalent or surplus parts where available._
 
-=== Chamber Construction
+=== Hot-zone & MOE cell (~$3,150)
 
-==== Structural Components
-* Stainless steel chamber body (316L grade recommended)
-* High-temperature gaskets and seals
-* Insulation materials (ceramic fiber blanket)
-* Viewing ports (borosilicate glass)
+* High-temperature insulation kit (1700 °C fiber boards/blanket, panels, fasteners) — **$350**
+* Modular steel frame (80/20 extrusion or welded assembly) with panels and hardware — **$250**
+* Crucible set: primary **ZrO₂** liner (1.5–2 L) plus two **Al₂O₃** backups — **$400**
+* Refractory-metal electrodes: **W** cathode set with **Mo** spares and an optional **IrO₂** inert anode — **$900**
+* Heater package: **MoSi₂** elements (1700 °C rating) with holders _or_ induction coil + 3–5 kW driver (120 V input) — **$950**
+* Thermography: dual two-color pyrometers covering 600–2000 °C — **$300**
+* Fixtures: ceramic feed port, UV-grade fused silica viewports, fast-shut baffles — **$150**
 
-==== Fasteners and Hardware
-* High-temperature bolts and nuts (A286 stainless steel)
-* Washers and spacers
-* Threaded rods and mounting brackets
+=== Vacuum refining vessel (~$1,750)
 
-=== Electrical System
+* Small high-vacuum furnace can (stainless shell, water-cooled feedthroughs) — **$600**
+* Heater insert (MoSi₂ elements or induction coil) — **$450**
+* Cold-trap assembly (water-cooled finger plus removable cryo cup) — **$250**
+* Vacuum hardware set: KF25/KF40 fittings, valves, and gauges (Pirani + capacitance manometer) — **$300**
+* Silicon crucible for refining (graphite or high-density SiC that avoids direct silica contact) — **$150**
 
-==== Power Supply
-* DC power supply (0-50V, 0-500A) with current regulation
-* Power cables (high-current, insulated)
-* Safety disconnect switches
-* Circuit breakers and fuses
+=== Gas & vacuum (~$1,600)
 
-==== Electrodes
-* Graphite anodes (high-purity grade)
-* Copper cathodes (99.9% pure)
-* Electrode holders and insulators
-* Connection hardware
+* Rotary vane pump (5–8 m³ h⁻¹) with backing filter — **$700**
+* Dry scroll pump (used or small new) as an optional upgrade — **$700**
+* Argon loop components: 20–40 L buffer tank, 0.1 µm filter, desiccant dryer — **$200**
 
-=== Control System
+=== Feed handling & casting (~$900)
 
-==== Sensors
-* Type K thermocouples (high-temperature rated)
-* Current shunts for amperage monitoring
-* Voltage monitoring circuits
-* Pressure sensors (if applicable)
+* Hopper with vacuum-tolerant auger (stainless screw, NEMA 17/23 stepper, driver) — **$300**
+* Inline dryer with 500 W cartridge heater and PID controller (150–250 °C) — **$150**
+* Screening kit: 250 µm and 100 µm meshes plus a benchtop jaw crusher — **$250**
+* Directional solidification station: Si₃N₄-coated quartz crucibles (2–3), mold base, slow-cool plate — **$200**
 
-==== Control Electronics
-* Programmable logic controller (PLC) or microcontroller
-* Solid-state relays
-* Display panels
-* Emergency stop buttons
+=== Controls & sensing (~$1,900)
 
-=== Safety Equipment
+* PLC or compact industrial controller with IO modules, SSRs/contactors, and E-stop — **$600**
+* **LIBS** head (OEM pulsed laser + gated spectrometer, 200–900 nm) — **$800**
+* **OES** spectrometer (300–900 nm) with optics and fiber — **$250**
+* **RGA** (bench quadrupole, 1–100 amu, used/refurbished) — **$250**
 
-==== Personal Protective Equipment
-* Safety glasses with side shields
-* Heat-resistant gloves
-* Chemical-resistant aprons
-* Respiratory protection (if handling chemicals)
+=== Power & energy (~$1,500)
 
-==== Ventilation
-* Exhaust fans
-* Ductwork and fittings
-* Gas scrubbing system (if required)
+* 120 V line conditioner/UPS or portable power station (≥1.8 kW continuous, ~1.5 kWh) — **$1,000**
+* Power distribution unit, breakers, cabling, GFCI, and grounding hardware — **$300**
+* Optional 400–600 W PV input cabling for recharging the storage pack — **$200**
 
-== Tools Required
+== Budget guidance
 
-=== Metalworking Tools
-* TIG welding equipment
-* Angle grinder
-* Drill press
-* Precision measuring tools
+* **Subtotal (new parts):** ~\$10,800
+* **Targeted v0.1 build cost:** \$8.8k–9.8k when leveraging surplus UPS/pumps/spectrometers (–\$800 to –\$1,500), choosing resistance heaters over induction (–\$300), limiting to a single pyrometer (–\$150), and fabricating the frame in-house (–\$200).
 
-=== Electrical Tools
-* Multimeter
-* Wire strippers and crimpers
-* Soldering equipment
-* Electrical testing equipment
-
-== Procurement Guidelines
-
-=== Sourcing Recommendations
-* Purchase electrical components from certified suppliers
-* Verify material certifications for high-temperature components
-* Consider lead times for specialized items
-* Maintain documentation for all components
-
-=== Cost Estimation
-* Budget approximately $5,000-$8,000 for complete system
-* Costs may vary based on specifications and local suppliers
-* Consider used equipment for non-critical components
-
-== Next Steps
-
-With materials identified, proceed to xref:safety.adoc[Safety Guidelines] before beginning construction.
+Document every substitution so operating parameters can be adjusted accordingly. Consumables and tool requirements are summarized in the xref:appendix.adoc[Appendix].

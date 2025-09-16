@@ -1,20 +1,28 @@
 = Chamber Construction
 
-== Overview
+== Frame & insulation (Step 3.1)
 
-This chapter covers the detailed construction of the electrolysis chamber, including fabrication techniques, assembly procedures, and quality control measures.
+. Build a rigid frame from 80/20 extrusion or welded angle steel with an interior clear volume of roughly 200 mm Ø × 250 mm H to house the liner stack.
+. Line the enclosure with 1700 °C-rated fiber boards, then add blanket layers to minimize heat leak. Install reflective shields (Mo or W foil) on standoffs to redirect radiant heat.
+. Cut and seal service penetrations for the feeder, viewport, pyrometer peeks, electrode feedthroughs, and gas ports. Keep every leak path short and sleeve openings with ceramic bushings.
+. Install removable access panels with captive hardware so inspection and maintenance can happen without disturbing insulation integrity.
 
-== Coming Soon
+== Heater & hot-zone integration (Step 3.2)
 
-Detailed construction instructions will be added in future revisions of this guide.
+. **MoSi₂ element option:** Arrange three to four elements evenly around the liner, following vendor spacing guidance. Wire them through SSRs or transformer taps, maintain sight lines to the melt, and protect leads from radiant heat.
+. **Induction option:** Wind a water-cooled copper coil around the liner zone with adequate electrical isolation. Mount the 3–5 kW driver near the coil, bond the shielding, and verify coolant flow before high-power operation.
+. Seat the primary **ZrO₂** liner inside a structural setter. Position the **W** cathode tip 10–20 mm above the floor sump and mount the anode opposite the wall (prefer an inert anode or shielded graphite to minimize carbon exposure).
+. Route thermocouple or pyrometer sight tubes through purged ports to capture wall and melt temperatures without fogging.
 
-== Placeholder Content
+== Phase separation geometry (Step 3.3)
 
-* Detailed fabrication drawings
-* Step-by-step assembly instructions
-* Quality control checkpoints
-* Testing procedures
+. Fit a weir that lets light slag overflow into a dedicated slag pocket while dense iron collects in a deep sump under the cathode.
+. Machine a silicon collection pocket isolated from the iron sump with a raised sill. The geometry should encourage silicon to settle away from slag before transfer.
+. Plan for a tilting ladle or tap hole that can draw silicon into a covered transfer crucible without disturbing the iron sump.
+. Dry fit all inserts at room temperature, confirm clearances, and mark alignment features so high-temperature assembly is repeatable.
 
-== Next Steps
+== Pre-flight checks
 
-Proceed to xref:electrical-system.adoc[Electrical System] when chamber construction is complete.
+* Verify liner contact surfaces are clean and that all ceramic components are free of cracks before heat-up.
+* Confirm electrode standoffs and feedthrough seals maintain electrical isolation at temperature.
+* Document final dimensions and orientations for reference in maintenance and troubleshooting chapters.

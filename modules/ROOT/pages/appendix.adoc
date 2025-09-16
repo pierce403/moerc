@@ -1,22 +1,32 @@
 = Appendix
 
-== Technical References
+== Upgrade path (Section 8)
 
-=== Standards and Codes
-* Applicable electrical codes
-* Safety standards
-* Materials specifications
+* Deploy an inert ceramic-metal anode to eliminate residual carbon contact.
+* Expand the MOE pot with dual-zone heaters for higher throughput.
+* Upgrade spectrometers for deeper UV coverage to resolve trace boron/phosphorus.
+* Automate tapping and ladle handling, integrating spectral feedback for closed-loop recipe tuning.
 
-=== Supplier Information
-* Recommended component suppliers
-* Contact information
-* Part numbers and specifications
+== Target setpoints (Appendix A)
 
-=== Additional Resources
-* Further reading
-* Related projects
-* Community forums
+* MOE hot-zone: **1625 °C** nominal.
+* Fe stage: current density **0.2–0.4 A cm⁻²**, tuned via OES.
+* Si stage: increase potential by **10–20 %** compared to the Fe stage, watching silicon emission and headspace oxygen.
+* Vacuum refining: **1700–1800 °C**, **≤10 Pa**, **30–90 min** hold.
 
-== Coming Soon
+== Minimal tools (Appendix B)
 
-Additional reference materials will be added in future revisions of this guide.
+* IR thermometer for quick checks.
+* Torque drivers, crimp kits, and electrical hand tools.
+* TIG-grade gloves, tongs, face shield, and PPE described in the safety chapter.
+* Precision scale and sieve set for feed preparation.
+
+== Expected consumables per 10 runs (Appendix C)
+
+* Argon: ≤1 m³ with reclaim.
+* Liners: 1 primary ZrO₂ liner plus 1 Al₂O₃ backup.
+* Anode face or coating: replace as needed if consumable.
+
+== Cost recap
+
+The v0.1 build lands at **\$8.8–9.8k** when leveraging surplus procurement strategies detailed in xref:materials.adoc[Materials & Components]. Track actual expenses to refine future revisions of the manual.
