@@ -77,6 +77,41 @@ Contributions to improve the guide are welcome! Please:
 4. Test the build locally
 5. Submit a pull request
 
+## Deployment
+
+The documentation site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment is handled by a GitHub Actions workflow.
+
+### Automatic Deployment
+
+- **Trigger**: Push to `main` branch or manual workflow dispatch
+- **Build**: Uses Node.js 18 and npm to install dependencies and build the Antora site
+- **Deploy**: Uploads the built site to GitHub Pages using the `actions/deploy-pages` action
+- **URL**: https://pierce403.github.io/moerc
+
+### Manual Deployment
+
+To manually trigger a deployment:
+
+1. Go to the repository's Actions tab
+2. Select the "Deploy to GitHub Pages" workflow
+3. Click "Run workflow" and select the main branch
+
+### Local Development
+
+For local development and preview:
+
+```bash
+# Install dependencies
+npm install
+
+# Build and preview the site
+npm run serve
+
+# Or build and preview separately
+npm run build:site
+npm run preview
+```
+
 ## License
 
 This work is licensed under CC0 1.0 Universal. You are free to use, modify, and distribute this content without restriction.
