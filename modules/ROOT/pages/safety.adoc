@@ -1,129 +1,39 @@
 = Safety Guidelines
 
-== Critical Safety Information
+== Hazard summary (Section 6)
 
-WARNING: The MOERC operates with high voltages, high temperatures, and potentially hazardous chemicals. Failure to follow safety procedures can result in serious injury or death.
+* **Thermal:** Process temperatures exceed 1700 °C. Maintain radiant shields, use IR-rated PPE, and keep combustible materials clear of the hot zone.
+* **Gas:** Oxygen is evolved during electrolysis. Provide positive venting away from personnel. The process is HF-free; off-gas is primarily O₂/Ar/SiO captured by cold traps.
+* **Electrical:** 120 V mains at high current. Use bonded grounds, GFCI protection, and an emergency stop that drops heater power. Ensure the UPS/inverter is sized for continuous draw.
+* **Optical:** Bright hot surfaces and potential arc light demand UV/IR eye protection when inspecting.
+* **Mechanical:** Guard moving hardware such as the auger, interlock access panels, and post hot-work signage in the lab.
 
-== General Safety Principles
+== Personal protective equipment
 
-=== Before You Begin
-* Read and understand all safety guidelines
-* Ensure proper training on all equipment and procedures
-* Have emergency contacts and procedures readily available
-* Verify that your workspace meets all safety requirements
+Always stage the following before build or operation work:
 
-=== Personal Protective Equipment (PPE)
+* Face shield and IR/UV-rated eye protection when observing the hot zone.
+* Heat-rated gloves (TIG-grade) and insulated aprons for handling hot components.
+* Respiratory protection when servicing the argon loop, cold traps, or handling fine powders.
+* Closed-toe, non-slip footwear and flame-resistant clothing.
 
-==== Always Required
-* Safety glasses with side protection
-* Heat-resistant gloves rated for temperatures up to 1000°C
-* Closed-toe shoes with non-slip soles
-* Long pants and long-sleeved shirts (natural fibers preferred)
+== Administrative controls
 
-==== When Applicable
-* Chemical-resistant aprons when handling electrolytes
-* Respiratory protection when exposure to fumes is possible
-* Face shields for high-risk operations
-* Hearing protection in noisy environments
+* Develop lockout/tagout procedures covering heaters, pumps, and control power.
+* Keep a current bill of materials, wiring diagrams, and emergency contacts posted near the workstation.
+* Train all personnel on emergency stop location, oxygen vent routing, and spill response.
+* Maintain clear walkways and segregate gas cylinders or power gear from general traffic areas.
 
-== Electrical Safety
+== Startup checklist
 
-=== High Voltage Precautions
-* Always de-energize system before maintenance
-* Use lockout/tagout procedures
-* Verify zero energy state with appropriate test equipment
-* Never work alone on electrical systems
+. Inspect liners, electrodes, and insulation for cracks or contamination.
+. Verify argon flow, oxygen vent routing, and that the cold-trap coolant loop is primed.
+. Test interlocks and emergency stops prior to heating.
+. Confirm PPE availability and that observers understand stay-out zones.
 
-=== Grounding and Bonding
-* Ensure all equipment is properly grounded
-* Verify ground fault protection is installed and functional
-* Use GFCI-protected outlets where applicable
-* Maintain proper equipment grounding throughout operation
+== Shutdown checklist
 
-== Thermal Safety
-
-=== High Temperature Hazards
-* Allow adequate cooling time before maintenance
-* Use appropriate thermal barriers and insulation
-* Monitor surface temperatures of accessible components
-* Provide clear warning labels on hot surfaces
-
-=== Thermal Protection Systems
-* Install thermal overload protection
-* Implement temperature monitoring and alarms
-* Ensure adequate ventilation for heat dissipation
-* Maintain thermal barriers around personnel areas
-
-== Chemical Safety
-
-=== Electrolyte Handling
-* Use only approved chemicals and concentrations
-* Store chemicals according to manufacturer specifications
-* Provide appropriate spill containment and cleanup materials
-* Never mix incompatible chemicals
-
-=== Waste Disposal
-* Follow local regulations for chemical waste disposal
-* Neutralize electrolytes before disposal when required
-* Properly label and store waste materials
-* Maintain waste disposal records
-
-== Emergency Procedures
-
-=== Emergency Shutdown
-* Locate and test all emergency stop controls
-* Ensure emergency shutdown procedures are posted and understood
-* Provide multiple methods to de-energize the system
-* Train all operators on emergency procedures
-
-=== First Aid and Emergency Response
-* Maintain current first aid supplies appropriate for chemical and electrical hazards
-* Post emergency contact numbers prominently
-* Ensure fire extinguishers are appropriate for electrical and chemical fires
-* Provide emergency eyewash and shower facilities
-
-== Workspace Requirements
-
-=== Ventilation
-* Provide adequate ventilation to remove process gases and heat
-* Install gas detection systems where appropriate
-* Ensure makeup air is sufficient for safe operation
-* Regular testing and maintenance of ventilation systems
-
-=== Fire Prevention
-* Use appropriate fire suppression systems
-* Maintain clear egress paths
-* Store flammable materials safely
-* Regular inspection and testing of fire safety equipment
-
-== Training and Certification
-
-=== Required Training
-* Electrical safety training
-* Chemical handling certification
-* Emergency response procedures
-* Equipment-specific operation training
-
-=== Ongoing Requirements
-* Annual safety refresher training
-* Regular safety audits and inspections
-* Incident reporting and investigation procedures
-* Continuous improvement of safety procedures
-
-== Legal and Regulatory Compliance
-
-=== Applicable Standards
-* OSHA workplace safety requirements
-* National Electrical Code (NEC) compliance
-* Local building and safety codes
-* Environmental regulations
-
-=== Documentation Requirements
-* Maintain safety training records
-* Document all safety inspections
-* Keep current safety data sheets (SDS)
-* Regular review and update of safety procedures
-
-== Next Steps
-
-Only after thoroughly understanding and implementing all safety requirements should you proceed to xref:chamber-construction.adoc[Chamber Construction].
+. Ramp heaters down under control; avoid opening the hot zone until temperatures fall below 200 °C.
+. Keep ventilation running until oxygen evolution ceases and cold traps have warmed to safe handling temperature.
+. Lock out power sources before performing maintenance.
+. Dispose of or recycle collected condensates per local regulations.

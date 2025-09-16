@@ -7,27 +7,37 @@
 
 == Preface
 
-Welcome to the Metal-Oxide Electrolysis Refinement Chamber (MOERC) Build Guide.
+Welcome to the **Metal Oxide Electrolysis Refinement Chamber (MOERC)** build guide. This edition aligns with the v0.1 field manual and captures the exact configuration used to turn approximately 1 kg of oxide feed into a 200 g learning‑grade silicon ingot using molten oxide electrolysis followed by vacuum refining and casting.
 
-This comprehensive guide provides step-by-step instructions for constructing your own Metal-Oxide Electrolysis Refinement Chamber. The MOERC is designed for educational and research purposes, demonstrating principles of electrochemistry, materials science, and precision engineering.
+=== About this release
 
-=== About This Guide
+* **Process chain:** MOE (Fe→Si→Al staging) → vacuum refining → directional casting.
+* **Power & utilities:** 120 V mains with an inline ≥1.8 kW battery/inverter for ride‑through and clean control power.
+* **Budget target:** <\$10k by combining commercial off‑the‑shelf (COTS) parts with surplus and DIY fabrication.
+* **Footprint:** Bench stack roughly 0.8 m × 0.6 m × 1.2 m for the full module set.
 
-This guide is organized as a complete build manual, taking you from initial planning through final testing and operation. Each section builds upon the previous ones, so it's recommended to read through the entire guide before beginning construction.
+The goal of this document is to reproduce that baseline as faithfully as possible so that later upgrades can be layered on with confidence.
 
-=== Safety Notice
+=== Who this guide is for
 
-IMPORTANT: This project involves high voltages, chemical processes, and precision equipment. Please read and understand all safety guidelines before beginning any work. Always use appropriate personal protective equipment and follow local safety regulations.
+This guide assumes hands‑on familiarity with fabrication, high‑temperature lab work, and industrial electrical practice. You should be comfortable welding or bolting a frame, plumbing vacuum hardware, wiring control cabinets, and validating instrumentation.
 
-=== Prerequisites
+=== How to use this manual
 
-Before starting this project, you should have:
+Each chapter corresponds to the build sequence used in the v0.1 manual:
 
-* Basic understanding of electrical circuits and safety
-* Familiarity with metalworking and fabrication techniques
-* Access to appropriate tools and workspace
-* Understanding of chemical safety procedures
+. System overview and performance envelope.
+. Bill of materials broken out by subsystem.
+. Step‑by‑step build instructions from frame to controls.
+. Commissioning, operation, and post‑run maintenance.
+. Appendices with setpoints, minimal tool lists, and consumable expectations.
+
+Read the entire manual before committing hardware. Cross‑linking between chapters mirrors the way the hardware is staged, so you can mark off sections as they are completed.
+
+=== Safety first
+
+The MOERC operates at 1600–1900 °C, emits bright thermal radiation, evolves oxygen, and draws high current from mains power. Review the dedicated xref:safety.adoc[Safety Guidelines] chapter, prepare your workspace, and stage PPE before any build or operation work begins.
 
 === License
 
-This work is licensed under CC0 1.0 Universal. You are free to use, modify, and distribute this content without restriction.
+This build guide is released under a Creative Commons **CC‑BY** license. Please attribute “MOERC Build Manual v0.1” when you reuse or remix these instructions.

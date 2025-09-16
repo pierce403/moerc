@@ -1,20 +1,28 @@
-= Electrical System
+= Electrical System & Utilities
 
-== Overview
+== Vacuum refining vessel (Step 3.4)
 
-This chapter covers the electrical system design, installation, and testing procedures for the MOERC power and control systems.
+. Assemble the stainless vacuum can with internal crucible supports and the selected heater package (MoSi₂ elements or induction coil). Ensure all feedthroughs are water-cooled and rated for 1600–1900 °C operation.
+. Install the cold-trap on the exhaust path. Use a water-cooled finger plus a removable cryogenic cup to capture SiO and P species before they reach the pump.
+. Route the chamber outlet through an isolation valve to the pump manifold. Tee in both a Pirani gauge and a capacitance manometer so you can monitor across the full pressure range.
+. Verify that all seals seat properly under vacuum and that thermocouple or pyrometer sight ports maintain line-of-sight without fouling.
 
-== Coming Soon
+== Gas & vacuum skid (Step 3.5)
 
-Detailed electrical system instructions will be added in future revisions of this guide.
+. Mount the rotary vane pump on vibration pads and plumb a KF manifold that can independently service the MOE cell and the refining pot. Include check valves to prevent back-streaming.
+. Build the argon loop: buffer tank → dryer → 0.1 µm filter → mass-flow control → process inlet. Return gas through a filter to the buffer tank to enable reclaim.
+. Provide an oxygen vent line from the MOE headspace to an exterior safe vent or capture bottle. Install throttling so the process headspace maintains 50–150 mbar above ambient during operation.
+. Add quick-service ports for leak checks and purge operations. Label every valve position and document the normal operating configuration.
 
-== Placeholder Content
+== Power distribution & grounding (Step 3.7)
 
-* Electrical schematics and wiring diagrams
-* Component installation procedures
-* System testing and commissioning
-* Safety verification procedures
+. Route 120 V mains through a line conditioner, UPS, or portable power station rated for ≥1.8 kW continuous output. This buffer rides through brownouts and keeps control power stable.
+. Split clean control power from heater feeds. Use appropriately sized breakers, contactors, and solid-state relays to switch the heating loads. Bond all metallic enclosures and maintain a single-point ground.
+. Install a dedicated emergency stop that drops heater power and signals the control system to transition to a safe state.
+. Confirm wire gauges, lug ratings, and insulation class match the expected current draw and ambient temperature.
 
-== Next Steps
+== Commissioning checks
 
-Proceed to xref:control-system.adoc[Control System] when electrical installation is complete.
+* Perform a megger or insulation resistance test on heater circuits before first heat.
+* Leak-check the vacuum manifold with argon at 50 mbar over ambient; target <50 sccm leakage before proceeding.
+* Simulate a power-loss event to confirm the UPS/inverter maintains controls while heaters coast down safely.

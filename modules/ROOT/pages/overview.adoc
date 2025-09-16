@@ -1,65 +1,47 @@
 = System Overview
 
-== Introduction
+== At-a-glance
 
-The Metal-Oxide Electrolysis Refinement Chamber (MOERC) is a precision electrolytic processing system designed for controlled metal-oxide reduction and refinement processes. This chapter provides a comprehensive overview of the system architecture, operating principles, and key components.
+* **Batch size:** ~1 kg dry SiO₂-dominant feed → ~200 g silicon learning target.
+* **Process chain:** Molten oxide electrolysis (Fe→Si→Al staging) → vacuum refining → directional solidification.
+* **Operating temperatures:** 1600–1700 °C in the MOE cell; 1600–1900 °C during vacuum refining; 1450–1550 °C for casting.
+* **Power input:** 120 V AC service with a ≥1.8 kW inverter/UPS inline to ride through sag events and isolate controls.
+* **Atmosphere management:** Argon backfill loop with reclaim, oxygen evolution venting, and cold-trapped exhaust.
+* **Footprint:** Bench-top stack, approximately 0.8 m × 0.6 m × 1.2 m for the complete module set.
 
-== System Architecture
+== System architecture
 
-The MOERC consists of several integrated subsystems:
+The v0.1 build organizes the hardware into eight cooperating modules. Work through them in order to maintain clear interfaces.
 
-=== Primary Components
+. **Feed prep & autofeed** – Hopper, auger, dryer (150–250 °C), and screening (≤250 µm) with an optional jaw crusher for raw rock.
+. **MOE cell (melter + electrolyzer)** – Insulated hot zone with ZrO₂/Al₂O₃ liners, refractory metal electrodes, and staged potentials for selective reduction.
+. **Phase separation** – Weir and sump geometry that parks iron in a deep pocket, skims slag, and directs silicon into an isolated collection pocket.
+. **Vacuum refining pot** – Dedicated vessel rated for 1600–1900 °C at ≤10 Pa with cold traps to capture SiO and phosphorous species.
+. **Ingot casting** – Directional solidification station using Si₃N₄-coated crucibles and a controlled cool-down plate.
+. **Gas & vacuum skid** – Rotary vane pump, optional dry scroll, argon buffer, dryer, filter stack, and oxygen vent/capture plumbing.
+. **Controls & sensing** – PLC or industrial micro, pyrometry, LIBS/OES for spectral feedback, residual gas analysis, and interlocks.
+. **Power & energy** – 120 V line conditioner or portable power station feeding heaters and controls with proper bonding and protection.
 
-* **Electrolysis Chamber**: The main reaction vessel where electrochemical processes occur
-* **Electrode Assembly**: Precisely positioned anodes and cathodes for optimal current distribution
-* **Power Supply System**: High-current, regulated DC power delivery
-* **Control System**: Automated monitoring and process control
-* **Safety Systems**: Multiple layers of protection and emergency shutdown capabilities
-* **Cooling System**: Thermal management for stable operation
+== Operating envelope
 
-=== Operating Principles
-
-The MOERC operates on the principle of controlled electrolysis, where electrical energy drives chemical reactions to reduce metal oxides to their pure metallic form. Key process parameters include:
-
-* Current density control
-* Temperature regulation
-* Electrolyte composition management
-* Gas management and ventilation
-
-== Performance Specifications
-
-[cols="1,2"]
+[cols="1,1",options="header"]
 |===
-|Parameter |Specification
-
-|Operating Temperature
-|200-800°C (adjustable)
-
-|Maximum Current
-|500A DC
-
-|Voltage Range
-|5-50V DC
-
-|Chamber Volume
-|2.5 liters
-
-|Process Efficiency
-|>95% theoretical
-
-|Control Accuracy
-|±1°C, ±0.1A
+|Parameter|Baseline target
+|MOE hot-zone temperature|1625 °C nominal, 1600–1700 °C acceptable
+|Vacuum refining|1700–1800 °C, ≤10 Pa, 30–90 min hold
+|Casting|1450–1550 °C pour with 1–5 K/min directional cool
+|Current density (Fe stage)|0.2–0.4 A cm^-2^, tuned via OES feedback
+|Atmosphere|Argon backfill 50–150 mbar above ambient, O₂ vented safely
+|Leak rate (argon test)|<50 sccm at 50 mbar over ambient
 |===
 
-== Applications
+== Utilities and support equipment
 
-The MOERC is suitable for:
+* **Electrical:** 120 V, 15–20 A circuit with GFCI protection, bonded grounds, and separated clean power for controls.
+* **Cooling:** Water loop for cold traps and any induction coil jackets; ensure flow monitoring before high-temperature work.
+* **Instrumentation:** Dual two-color pyrometers, LIBS head for feed characterization, OES aimed at the melt, and RGA on the refining foreline.
+* **Gas handling:** Argon reclaim loop with buffer tank, dryer, and filtration; oxygen vent line routed to a safe exhaust or capture bottle.
 
-* Educational demonstrations of electrochemical principles
-* Small-scale metal refining research
-* Process development and optimization
-* Materials science experiments
+== Workflow context
 
-== Next Steps
-
-Proceed to xref:materials.adoc[Materials & Components] to begin planning your build.
+The overview sets the stage for the detailed chapters that follow. Continue to xref:materials.adoc[Materials & Components] for the subsystem bill of materials before you start fabricating the frame.

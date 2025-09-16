@@ -1,13 +1,30 @@
 = Control System
 
-== Overview
+== Hardware integration (Step 3.6)
 
-This chapter covers the control system design, programming, and configuration for automated MOERC operation.
+. Install the PLC or compact industrial controller along with IO modules, SSRs/contactors, and hardwired interlocks. Map door, panel, over-temperature, and vacuum-OK signals before energizing heaters.
+. Mount two-color pyrometers with purged sight tubes aimed at the melt zone and refining pot. Verify both channels read correctly from room temperature through a controlled heat soak.
+. Position the **LIBS** head above the feed inlet or melt surface using a windowed port. Route the fiber bundle to the gated spectrometer and perform alignment shots on inert targets before live material.
+. Aim the **OES** fiber toward the electrode/plasma zone to resolve Fe, Si, and O emission lines. Confirm shielding prevents stray light or arc flash from saturating the detector.
+. Connect the **RGA** to the refining foreline via a throttled tee downstream of the cold-trap. Calibrate mass peaks during a dry pump-down to establish baselines.
 
-== Coming Soon
+== Software & interlocks
 
-Detailed control system instructions will be added in future revisions of this guide.
+* Implement permissives that block heater enable until all door, panel, vacuum, and coolant interlocks report safe states.
+* Use PID loops for heater zones with ramps/soaks tailored to the target temperatures in each process stage.
+* Log critical parameters (temperatures, currents, spectra, pressures) at intervals sufficient for later analysis and troubleshooting.
 
-== Next Steps
+== Control logic (Section 5)
 
-Proceed to xref:testing.adoc[Testing & Calibration] when control system is complete.
+. Preheat the MOE cell to 1600 °C and hold for 20 min to stabilize the thermal mass.
+. Verify LIBS feed characterization meets recipe limits; abort if out of bounds.
+. Enter the **Fe window**: apply low cathodic overpotential/current density and watch OES lines until the iron sump mass threshold is met. Tap or park the iron as required.
+. Transition to the **Si window**: increase potential by 10–20 % compared to the Fe stage, monitor silicon emission growth, and manage the headspace to keep Fe isolated.
+. Transfer molten silicon to the refining pot. Initiate vacuum refining once ≤10 Pa is reached and continue until the RGA shows phosphorous species below threshold.
+. Command the casting sequence, cool under control, and record spectra/logs for post-run review.
+
+== Commissioning tests
+
+* Dry-run the full control sequence without feed to validate interlocks, sensor scaling, and data logging.
+* Inject known spectral lines (calibration lamps or reference targets) to confirm LIBS/OES wavelength accuracy before production runs.
+* Simulate an emergency stop to confirm all heaters and motion drives default to safe states while maintaining data capture.

@@ -1,13 +1,27 @@
 = Operation Manual
 
-== Overview
+== MOE operation (Section 4.3)
 
-This chapter covers normal operation procedures, process parameters, and operational best practices.
+. Bring the hot zone to 1600–1650 °C under a light argon blanket (50–150 mbar above ambient). Confirm thermal stability before feeding.
+. Enter the **Fe stage** with a low cathodic overpotential/current density. Monitor **OES** for iron emission lines as the metal accumulates in the sump. Tap or park iron once the sump reaches the planned mass.
+. Transition to the **Si stage** by stepping the potential upward 10–20 %. Watch silicon emission intensity and headspace oxygen signals. Keep the Fe sump slightly cooler to discourage alloying.
+. Manage bubble evolution and avoid vigorous stirring. If LIBS/OES indicates co-reduction or alloy formation, reduce potential, allow iron to settle, and resume once signals stabilize.
 
-== Coming Soon
+== Transfer to refining pot (Section 4.4)
 
-Detailed operation instructions will be added in future revisions of this guide.
+. Ladle or tap molten silicon into a covered transfer crucible to minimize air exposure.
+. Move the crucible to the refining vessel, close the chamber, evacuate to ≤10 Pa, and ramp to 1600–1850 °C.
+. Hold for 30–90 min while monitoring the **RGA**. Falling phosphorous peaks indicate progress; a rise in **SiO (m/z ~44)** signals over-evaporation—tighten cold-trap cooling or adjust temperature accordingly.
 
-== Next Steps
+== Casting (Section 4.5)
 
-Proceed to xref:troubleshooting.adoc[Troubleshooting] for problem resolution guidance.
+. Pour refined silicon into a **Si₃N₄**-coated quartz mold.
+. Directionally cool at 1–5 K min⁻¹ from bottom to top to segregate residual impurities toward the hot end.
+. Crop the tail section that concentrates impurities.
+. Optionally perform a mini float-zone pass on a small rod if semiconductor experiments are planned.
+
+== Post-run
+
+* Log temperatures, currents, vacuum levels, and spectral data for the full batch record.
+* Inspect slag pockets, iron sump, and collection pocket before cool-down completes so issues can be documented.
+* Prepare the system for cleaning per the xref:maintenance.adoc[Maintenance] chapter before starting the next batch.
