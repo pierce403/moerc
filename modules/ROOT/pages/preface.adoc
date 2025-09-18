@@ -5,7 +5,7 @@
 :sectnums:
 :toc: left
 
-image::moerc.png[MOERC Device,align=center]
+image::moerc.png[MOERC Device,align=center,width=600]
 
 == Preface
 
