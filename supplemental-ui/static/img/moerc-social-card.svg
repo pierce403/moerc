@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MOERC Guide</title>
+  <desc id="desc">Social preview card for the Modular Open Electronics Research Cell documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021a33"/>
+      <stop offset="100%" stop-color="#054f88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="24"/>
+  <g fill="#ffffff" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="80" y="210" font-size="64" font-weight="700">Modular Open Electronics</text>
+    <text x="80" y="290" font-size="64" font-weight="700">Research Cell</text>
+    <text x="80" y="380" font-size="40" opacity="0.85">Assembly &amp; Operations Guide</text>
+  </g>
+  <g transform="translate(900 160)">
+    <rect x="0" y="0" width="200" height="200" rx="40" fill="rgba(255,255,255,0.14)"/>
+    <path d="M60 150h80L100 50z" fill="#6ee0ff"/>
+  </g>
+</svg>

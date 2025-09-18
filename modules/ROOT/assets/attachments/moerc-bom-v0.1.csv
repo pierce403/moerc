@@ -1,0 +1,16 @@
+Subsystem,Item,Quantity,Notes,Estimated Cost (USD)
+Hot-zone & Cell,High-temperature insulation kit,1,1700°C fiber boards/blanket panels and fasteners,350
+Hot-zone & Cell,Modular steel frame,1,80/20 extrusion or welded frame with hardware,250
+Hot-zone & Cell,Graphite heating elements,4,Custom machined elements rated to 1700°C,600
+Hot-zone & Cell,Type C thermocouple,2,Rhenium-tungsten probe with ceramic sheath,220
+Power & Distribution,25 kVA SCR power controller,1,Three-phase rated with phase-angle firing,1200
+Power & Distribution,Main fused disconnect,1,Lockable service entrance rated enclosure,150
+Power & Distribution,Step-down control transformer,1,Provides 120 VAC logic power,95
+Control & Instrumentation,Industrial controller or PLC,1,Supports PID loops and safety interlocks,180
+Control & Instrumentation,HMI touch panel,1,Minimum 7-inch display with Ethernet,250
+Control & Instrumentation,Sensor I/O modules,3,Digital and analog expansion modules,210
+Gas Handling,Mass flow controller,2,0-10 slpm argon-capable stainless unit,700
+Gas Handling,Inlet and exhaust valves,4,High-temperature pneumatic valves,180
+Ancillary Systems,Safety interlock switches,4,Door and service cover sensors,60
+Ancillary Systems,Cabling and harnessing,1,Includes high-temp leads and signal wiring,120
+Ancillary Systems,Fasteners and hardware kit,1,Stainless hardware assortment,65

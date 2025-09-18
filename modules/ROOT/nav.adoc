@@ -10,3 +10,4 @@
 * xref:troubleshooting.adoc[Troubleshooting]
 * xref:maintenance.adoc[Maintenance]
 * xref:appendix.adoc[Appendix]
+* xref:downloads.adoc[Downloads]

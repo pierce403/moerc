@@ -1,0 +1,61 @@
+.header .navbar-item.button,
+.header .navbar-item .button {
+  font-weight: 600;
+}
+
+.header .navbar-item .button.is-primary {
+  background: #0060df;
+  border-color: #0051bd;
+}
+
+.header .navbar-item .button.is-primary:hover {
+  background: #0051bd;
+  border-color: #003f94;
+}
+
+.version-footer {
+  background: #0a0a0a;
+  color: #f0f0f0;
+  padding: 1.25rem 0;
+}
+
+.version-footer .version-badge {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: #1d72b8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.version-footer .repo-link {
+  color: #f0f6ff;
+  font-weight: 600;
+}
+
+.version-footer .repo-link:hover {
+  color: #abd4ff;
+}
+
+.version-footer .separator {
+  margin: 0 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.version-footer .footer-note {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (max-width: 1024px) {
+  body.toc2 #toc.toc2 {
+    display: none;
+  }
+  body.toc2 .doc {
+    margin-left: 0;
+  }
+  .navbar-menu {
+    padding: 0.75rem 1rem;
+  }
+}
