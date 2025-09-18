@@ -5,6 +5,8 @@
 :sectnums:
 :toc: left
 
+image::moerc.png[MOERC Device,align=center]
+
 == Preface
 
 Welcome to the **Metal Oxide Electrolysis Refinement Chamber (MOERC)** build guide. This edition aligns with the v0.1 field manual and captures the exact configuration used to turn approximately 1 kg of oxide feed into a 200 g learning‑grade silicon ingot using molten oxide electrolysis followed by vacuum refining and casting.
