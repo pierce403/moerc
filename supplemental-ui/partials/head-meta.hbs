@@ -1,0 +1,16 @@
+    {{#with (or page.attributes.seo_description (or page.description 'Construction and operation guide for the Modular Open Electronics Research Cell (MOERC).'))}}
+    <meta name="description" content="{{this}}">
+    <meta property="og:description" content="{{this}}">
+    <meta name="twitter:description" content="{{this}}">
+    {{/with}}
+    <meta property="og:type" content="article">
+    {{#with page.title}}
+    <meta property="og:title" content="{{this}}">
+    <meta name="twitter:title" content="{{this}}">
+    {{/with}}
+    {{#with (or page.canonicalUrl site.url)}}
+    <meta property="og:url" content="{{this}}">
+    {{/with}}
+    <meta property="og:image" content="{{{relativize '/img/moerc-social-card.svg'}}}">
+    <meta name="twitter:image" content="{{{relativize '/img/moerc-social-card.svg'}}}">
+    <meta name="twitter:card" content="summary_large_image">

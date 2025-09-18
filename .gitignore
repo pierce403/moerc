@@ -1,6 +1,7 @@
 # Build artifacts
 build/
 dist/
+supplemental-ui/static/downloads/
 
 # Node.js dependencies
 node_modules/
@@ -22,3 +23,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Generated offline downloads
+modules/ROOT/assets/attachments/*.pdf
+modules/ROOT/assets/attachments/*.zip

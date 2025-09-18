@@ -1,0 +1,23 @@
+= Downloads
+:description: Download the MOERC build manual and bill of materials for offline use.
+
+Looking for offline copies of the guide? Grab the curated files below. Each download bundles the latest v0.1 content from this
+site so you can reference it without an internet connection.
+
+== Quick links
+
+* link:/_/static/downloads/moerc-build-guide-v0.1.pdf["Build manual (PDF)",opts=download]
+* link:/_/static/downloads/moerc-bom-v0.1.csv["Bill of materials (CSV)",opts=download]
+
+== Need an all-in-one package?
+
+Project policy prohibits distributing binary ZIP archives directly from the repository, so we publish the PDF and CSV as
+individual downloads. To mirror the previous bundle locally, download both files above and archive them with your preferred
+tool:
+
+[,bash]
+----
+zip moerc-build-kit.zip moerc-build-guide-v0.1.pdf moerc-bom-v0.1.csv
+----
+
+Have suggestions for additional formats or automation? Open an issue via the link in the footer—we’d love to hear from you.

@@ -1,0 +1,14 @@
+<footer class="footer version-footer">
+  <div class="content has-text-centered">
+    {{#with page.componentVersion}}
+      {{#if ./displayVersion}}
+      <span class="version-badge">v{{./displayVersion}}</span>
+      {{else}}
+      <span class="version-badge">v{{./version}}</span>
+      {{/if}}
+    {{/with}}
+    <a class="repo-link" href="https://github.com/pierce403/moerc" target="_blank" rel="noopener">View source on GitHub</a>
+    <span class="separator" aria-hidden="true">•</span>
+    <span class="footer-note">Built with Antora</span>
+  </div>
+</footer>

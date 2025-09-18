@@ -1,4 +1,5 @@
 = System Overview
+:page-aliases: specs.adoc
 
 == At-a-glance
 

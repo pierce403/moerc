@@ -5,6 +5,8 @@
   "license": "CC0-1.0",
   "description": "Metal-Oxide Electrolysis Refinement Chamber Build Guide",
   "scripts": {
+    "prebuild:site": "scripts/build_offline_assets.py",
+    "build:downloads": "scripts/build_offline_assets.py",
     "build:site": "npx antora antora-playbook.yml",
     "preview": "npx http-server build/site -p 8080 -c-1",
     "clean": "rimraf build",

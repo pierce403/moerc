@@ -1,0 +1,24 @@
+= Sitemap
+:page-layout: none
+:page-permalink: /sitemap.xml
+
+++++
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://moerc.org/</loc>
+  </url>
+  <url>
+    <loc>https://moerc.org/moerc/0.1/preface.html</loc>
+  </url>
+  <url>
+    <loc>https://moerc.org/moerc/0.1/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://moerc.org/moerc/0.1/materials.html</loc>
+  </url>
+  <url>
+    <loc>https://moerc.org/moerc/0.1/downloads.html</loc>
+  </url>
+</urlset>
+++++
