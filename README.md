@@ -2,6 +2,8 @@
 
 Metal-Oxide Electrolysis Refinement Chamber - Step-by-Step Build Guide
 
+![MOERC Device](moerc.png)
+
 ## Overview
 
 This repository contains a comprehensive build guide for constructing a Metal-Oxide Electrolysis Refinement Chamber (MOERC). The guide is organized as a step-by-step manual using the Antora documentation platform.

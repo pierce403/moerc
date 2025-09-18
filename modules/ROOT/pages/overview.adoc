@@ -1,6 +1,8 @@
 = System Overview
 :page-aliases: specs.adoc
 
+image::moerc.png[MOERC Device,align=center]
+
 == At-a-glance
 
 * **Batch size:** ~1 kg dry SiO₂-dominant feed → ~200 g silicon learning target.
