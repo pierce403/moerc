@@ -1,6 +1,6 @@
 site:
   title: MOERC Build Guide
-  start_page: moerc::preface.adoc
+  start_page: ROOT::preface.adoc
   url: https://moerc.org
 content:
   sources:
