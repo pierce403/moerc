@@ -12,7 +12,7 @@ This repository contains a comprehensive build guide for constructing a Metal-Ox
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
+- Node.js 24 LTS (the locked Antora packages require Node.js 20 or higher)
 - npm (Node Package Manager)
 
 ### Quick Start
@@ -86,7 +86,7 @@ The documentation site is automatically deployed to GitHub Pages when changes ar
 ### Automatic Deployment
 
 - **Trigger**: Push to `main` branch or manual workflow dispatch
-- **Build**: Uses Node.js 18 and npm to install dependencies and build the Antora site
+- **Build**: Uses Node.js 24 and npm to install dependencies and build the Antora site
 - **Deploy**: Uploads the built site to GitHub Pages using the `actions/deploy-pages` action
 - **URL**: https://pierce403.github.io/moerc
 
